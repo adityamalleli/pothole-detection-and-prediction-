@@ -163,11 +163,11 @@ This is enough to win! Judges want to see the CONCEPT clearly.
 ## 📊 DEMO FLOW FOR JUDGES (5 minutes)
 
 ```
-Minute 1: Show the problem
+Minute 1: Shown the problem
   "Roads fail suddenly → accidents → huge cost"
   Show pothole images, statistics
 
-Minute 2: Show your solution concept
+Minute 2: Show solution concept
   Draw/show the 4-layer architecture diagram
   "We PREDICT before damage, not react after"
 
@@ -191,43 +191,3 @@ Minute 5: Scalability pitch
 
 ---
 
-## 🏆 EXPECTED JUDGE QUESTIONS & ANSWERS
-
-**Q: How is this different from pothole detection?**
-A: Detection reacts after damage. Our system predicts 7-30 days BEFORE
-   the pothole forms — shifting from reactive to proactive infrastructure.
-
-**Q: How do you filter speed breakers?**
-A: Three ways: (1) Vibration signature — speed breakers create slow
-   smooth waves, cracks create sharp sudden spikes. (2) GPS filtering
-   — speed breaker locations are pre-mapped. (3) Trend analysis —
-   speed breakers stay constant, road damage progressively worsens.
-
-**Q: How do you scale citywide?**
-A: City buses cover every road daily. 3,000 TSRTC buses in Hyderabad =
-   3,000 moving sensors. ₹1,000 per bus = ₹30 lakh for city-wide coverage
-   vs crores spent on road repairs annually.
-
-**Q: What's the accuracy?**
-A: Our trained model achieves ~94% accuracy. In production, accuracy
-   improves continuously as more real sensor data is collected.
-
-**Q: How does it work without internet?**
-A: The ESP32 has built-in rule-based prediction as fallback —
-   no internet needed. Stores data locally and syncs when connected.
-
----
-
-## 📞 QUICK TROUBLESHOOTING
-
-| Problem | Solution |
-|---------|---------|
-| MPU6050 not found | Check SDA=21, SCL=22 wiring |
-| GPS no fix | Move outdoors, wait 2-3 minutes |
-| WiFi won't connect | Check SSID/password, same network |
-| Flask not reachable | Check firewall, use laptop IP not 127.0.0.1 |
-| Dashboard blank | Run demo simulator first to generate data |
-
----
-
-*Built for Smart City Hackathon 2026 | AI-Powered Infrastructure*
