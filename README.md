@@ -143,24 +143,9 @@ Dashboard opens at: `http://localhost:8501`
 2. Select correct COM port
 3. Click Upload (→)
 4. Open Serial Monitor (115200 baud) to see readings
-
 ---
 
-## 🎬 HACKATHON DEMO (WITHOUT HARDWARE)
-
-If you don't have hardware ready, use the dashboard alone:
-
-1. Run: `streamlit run dashboard.py`
-2. Click **"▶️ Run Full Demo"** in sidebar
-3. Watch the system simulate road degradation:
-   - LOW RISK → MEDIUM RISK → HIGH RISK
-4. Show judges the live charts and alerts
-
-This is enough to win! Judges want to see the CONCEPT clearly.
-
----
-
-## 📊 DEMO FLOW FOR JUDGES (5 minutes)
+## 📊 DEMO FLOW 
 
 ```
 Minute 1: Shown the problem
