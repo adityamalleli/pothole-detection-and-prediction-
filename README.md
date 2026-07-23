@@ -1,5 +1,5 @@
 # 🔱 AI-Based Pothole Prediction System
-## Complete Setup Guide for Hackathon
+## Complete Setup 
 
 ---
 
