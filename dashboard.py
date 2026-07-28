@@ -84,8 +84,8 @@ with st.sidebar:
                                     value="http://localhost:5000")
 
     st.markdown("---")
-    st.caption("🔱 AI Pothole Prediction System v1.0")
-    st.caption("Built for Smart City Hackathon 2026")
+    st.caption("🔱 AI Pothole Prediction System ")
+    
 
 # ============================================================
 # 🧠 LOCAL PREDICTION (No server needed for demo)
