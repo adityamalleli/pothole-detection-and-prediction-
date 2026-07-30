@@ -2,6 +2,8 @@
 ## Complete Setup 
 
 ---
+live demo : https://bwttca4qhnoxo9lyjfrgjz.streamlit.app/
+---
 
 ## 📁 FILES IN THIS PROJECT
 
